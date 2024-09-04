@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 2px;
+    padding: 0;
+}
+
+body>header {
+    background-color: rgb(47, 40, 55);
+    padding: 16px 0px;
+    color: #f5f6fa;
+}
+
+header .container a {
+    color: #f5f6fa;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+
+header .container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container h2 {
+    color: #f5f6fa;
+}
+
+.container {
+    width: 1440px;
+    margin: 2px auto;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #f5f6fa;
+}
+
+.articles article img {
+    /* height: 180px; */
+    width: 100%;
+}
+
+.articles article {
+    width: 20%;
+}
+
+section {
+    padding: 10px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: rgb(134, 134, 236);
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: 'Times New Roman', Times, serif
+}
+
+.articles article h3 {
+    font-size: 25px;
+}
+
+section h2 {
+    font-size: 38px;
+}
+
+#sports {
+    background-color: rgb(81, 42, 120);
+}
+
+#economy {
+    background-color: rgb(47, 40, 55);
+}
+
+.container #fashion {
+    background-color: rgb(251, 132, 180);
+}
+
+.container #movies {
+    background-color: rgb(95, 70, 130);
+}
+
+.container #movies img {
+    margin: 2px;
+    padding: 2px;
+}
+
+.container #movies h3 {
+    color: white;
+}
